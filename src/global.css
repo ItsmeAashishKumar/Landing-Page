@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+@font-face {
+  font-family: "Metropolis";
+  src: url("/public/Metropolis-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("/public/Metropolis-Medium.otf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Metropolis";
+  src: url("/public/Metropolis-SemiBold.otf");
+  font-weight: 600;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --h2: Metropolis;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --h2-size: 2.813rem;
+  --font-size-8xl: 1.688rem;
+  --font-size-17xl: 2.25rem;
+  --short-desc-mobile-small-size: 0.875rem;
+  --short-description-size: 1rem;
+  --font-size-lg: 1.125rem;
+  --h3-size: 1.75rem;
+  --font-size-3xl: 1.375rem;
+  --h3-mobile-size: 1.25rem;
+  --h1-size: 4rem;
+  --font-size-19xl: 2.375rem;
+  --font-size-32xl: 3.188rem;
+  --h2-mobile-size: 1.5rem;
+  --h1-mobile-size: 2rem;
+
+  /* Colors */
+  --pure-white: #fff;
+  --eazy-black: #000;
+  --color-gray-100: #141414;
+  --color-gray-200: rgba(0, 0, 0, 0.07);
+  --color-gray-300: rgba(0, 0, 0, 0.75);
+  --color-gray-400: rgba(0, 0, 0, 0.1);
+  --color-gray-500: rgba(20, 20, 20, 0.65);
+  --color-gray-600: rgba(255, 255, 255, 0.2);
+  --color-gray-700: rgba(255, 255, 255, 0.16);
+  --color-gray-800: rgba(255, 255, 255, 0.24);
+  --color-plum: #e297dc;
+  --eazy-white: #f3f2f2;
+  --color-orchid: #cf67ca;
+
+  /* Gaps */
+  --gap-6xl: 1.562rem;
+  --gap-31xl: 3.125rem;
+  --gap-mini: 0.937rem;
+  --gap-11xl: 1.875rem;
+  --gap-76xl-3: 5.956rem;
+  --gap-5xl: 1.5rem;
+  --gap-29xl: 3rem;
+  --gap-42xl: 3.812rem;
+  --gap-27xl-3: 2.893rem;
+  --gap-4xl: 1.437rem;
+  --gap-mid-7: 1.106rem;
+  --gap-xl: 1.25rem;
+  --gap-mini-3: 0.893rem;
+  --gap-base-4: 1.025rem;
+  --gap-lg: 1.125rem;
+  --gap-3xs: 0.625rem;
+  --gap-18xl: 2.312rem;
+  --gap-32xl: 3.187rem;
+  --gap-111xl: 8.125rem;
+  --gap-15xl: 2.125rem;
+  --gap-91xl: 6.875rem;
+  --gap-17xl: 2.25rem;
+  --gap-75xl: 5.875rem;
+  --gap-41xl: 3.75rem;
+  --gap-80xl: 6.187rem;
+  --gap-163xl: 11.375rem;
+  --gap-159xl: 11.125rem;
+  --gap-28xl: 2.937rem;
+  --gap-89xl: 6.75rem;
+  --gap-8xl: 1.687rem;
+  --gap-35xl: 3.375rem;
+  --gap-16xl: 2.187rem;
+  --gap-mid: 1.062rem;
+  --gap-xl-1: 1.256rem;
+  --gap-10xl-5: 1.843rem;
+  --gap-lgi: 1.187rem;
+  --gap-4xl-2: 1.45rem;
+  --gap-26xl-3: 2.831rem;
+  --gap-23xl: 2.625rem;
+  --gap-11xs: 0.125rem;
+  --gap-xs: 0.75rem;
+  --gap-6xs: 0.437rem;
+
+  /* Paddings */
+  --padding-6xl: 1.562rem;
+  --padding-xl: 1.25rem;
+  --padding-2xl: 1.312rem;
+  --padding-63xl: 5.125rem;
+  --padding-49xl: 4.25rem;
+  --padding-mid-3: 1.081rem;
+  --padding-34xl: 3.312rem;
+  --padding-15xl: 2.125rem;
+  --padding-11xs: 0.125rem;
+  --padding-10xs: 0.187rem;
+  --padding-12xs: 0.062rem;
+  --padding-18xl: 2.312rem;
+  --padding-base: 1rem;
+  --padding-3xl: 1.375rem;
+  --padding-5xl: 1.5rem;
+  --padding-10xs-5: 0.156rem;
+  --padding-lg: 1.125rem;
+  --padding-88xl: 6.687rem;
+  --padding-44xl: 3.937rem;
+  --padding-46xl: 4.062rem;
+  --padding-13xl: 2rem;
+  --padding-12xl: 1.937rem;
+  --padding-7xl: 1.625rem;
+  --padding-31xl: 3.125rem;
+  --padding-29xl: 3rem;
+  --padding-4xl: 1.437rem;
+  --padding-14xl: 2.062rem;
+  --padding-152xl: 10.687rem;
+  --padding-24xl: 2.687rem;
+  --padding-8xs: 0.312rem;
+  --padding-9xs: 0.25rem;
+  --padding-51xl: 4.375rem;
+  --padding-16xl: 2.187rem;
+  --padding-68xl: 5.437rem;
+  --padding-38xl: 3.562rem;
+  --padding-507xl: 32.875rem;
+  --padding-244xl: 16.437rem;
+  --padding-112xl: 8.187rem;
+  --padding-xs: 0.75rem;
+  --padding-mini: 0.937rem;
+  --padding-10xs-7: 0.168rem;
+  --padding-3xs: 0.625rem;
+  --padding-sm: 0.875rem;
+  --padding-mini-6: 0.912rem;
+  --padding-17xl: 2.25rem;
+  --padding-9xl: 1.75rem;
+  --padding-4xl-5: 1.468rem;
+  --padding-25xl: 2.75rem;
+  --padding-5xs: 0.5rem;
+  --padding-35xl: 3.375rem;
+  --padding-23xl: 2.625rem;
+
+  /* Border radiuses */
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-8xs-1: 4.1px;
+}
